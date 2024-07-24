@@ -8,7 +8,7 @@ test:
 format:
 	black *.py
 
-limit:
+lint:
 	pylint --disable=R,C main.py
 
 all:
